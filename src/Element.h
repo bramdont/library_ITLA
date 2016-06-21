@@ -12,6 +12,10 @@ class Element
 {
 	private:
 		std::string _name;
+		std::string _author;
+		std::string _editorial;
+		std::string _pDate;
+		std::string _category;
 		Element* _next;
 
 	public:

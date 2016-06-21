@@ -12,6 +12,12 @@ class Menu
 {
 	public:
 		void show();
+		void pushBook();
+		void popBook();
+		void action(int option);
+		bool validate(int option);
+		void listBook();
+		Element* findBook();
 		Menu();
 };
 
